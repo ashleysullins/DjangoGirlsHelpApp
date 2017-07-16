@@ -1,6 +1,6 @@
 # Help-queue
 
-This site allows code school students to ask for help during class from their instructor via an Ember application. The teacher can close the ticket once the issue is resolved. 
+This site allows code school students to ask for help during class from their instructor via an Ember application. The teacher can close the ticket once the issue is resolved.
 
 ## Prerequisites
 
@@ -49,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
