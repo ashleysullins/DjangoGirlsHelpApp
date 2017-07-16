@@ -1,0 +1,21 @@
+<form>
+  <div class="form-group">
+    {{input type="text" value=names id="names" class="form-control" placeholder="Your names" }}
+  </div>
+  <div class="form-group">
+    {{textarea type="question" value=question id="question" class="form-control" rows="7" placeholder="Tell us about the difficulties you are experiencing"}}
+  </div>
+  <div class="radio">
+  {{#each courses as |course| }}
+    {{#radio-button
+        value=course
+        required=true
+        groupValue=course_id
+        name=course.course}}
+        {{course.course}}
+    {{/radio-button}}
+
+  {{/each}}
+</div>
+  <button {{action 'saveTicketToCourse'}} class="btn btn-default submitBtn">Get Help!</button>
+</form>

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffce;
+  padding-bottom: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+  background-color: #FF6138;
+}
+.navbar a, .navbar .navbar-collapse ul li a {
+  color: white;
+}
+.jumbotron {
+  background-color: #65C2A2;
+  color: #C2F0A2;
+}
+
+form {
+  padding-bottom: -30px;
+}
+
+.submitBtn {
+  background-color: #FF6138;
+  color: white;
+}
+
+.courseName {
+  color: #00A388;
+}
+.questionsList, .no-delay {
+  background-color: #FFC78E;
+}
+
+.questionsList:nth-child(odd) {
+  background-color: #FFB88E;
+}
+
+.questionsList span {
+  color: #FF6138;
+}
+
+.arrow {
+  padding-top: 45px;
+  font-size: 2em;
+}
+.container {
+  margin-bottom: 75px;
+}
+
+.footer {
+  padding-top: 10px;
+  text-align: center;
+  background-color: #65C2A2;
+  color: #BEEB9F;
+}
+
+.well {
+  color: black;
+}

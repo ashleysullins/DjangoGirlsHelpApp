@@ -1,0 +1,14 @@
+<h2 class="courseName">{{course.course}}</h2>
+
+{{#each course.tickets as |ticket|}}
+  <div class="questionsList col-sm-12 col-md-12 col-lg-12" id="ticketItem">
+    <div class="col-sm-11 col-md-11 col-lg-11">
+      <h3>{{ticket.names}}</h3>
+      <p>{{ticket.question}}</p>
+      <!-- <p>Submitted on {{format-date ticket.date_added}}</p> -->
+    </div>
+    <div  class="arrow col-sm-1 col-md-1 col-lg-1">
+      {{#link-to 'ticket' ticket.id}}<span class="glyphicon glyphicon-menu-right" aria="true"></span> {{/link-to}}
+    </div>
+  </div>
+{{/each}}
