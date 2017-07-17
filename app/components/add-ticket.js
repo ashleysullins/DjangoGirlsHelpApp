@@ -1,15 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  startTimer: false,
 
   actions: {
-    setStartTimer() {
-      setTimeout(function() {
-        //this.set('startTimer', true);
-        alert("hi");
-      }, 1000);
-    },
     saveTicketToCourse() {
       var params = {
         names: this.get('names') ? this.get('names') : "",
@@ -18,7 +11,6 @@ export default Ember.Component.extend({
         date_added: Date.now()
       };
       this.sendAction('saveTicketToCourse', params);
-      this.sendAction('setStartTimer');
     }
   }
 });

@@ -1,11 +1,5 @@
 { "courses": [
   {
-    "course": "Java/JavaScript/Android"
-  },
-  {
-    "course": "PHP/JavaScript/Drupal"
-  },
-  {
-    "course": "Ruby/JavaScript/Rails"
+    "course": "Django Girls"
   }
 ]}

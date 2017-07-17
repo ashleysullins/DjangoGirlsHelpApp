@@ -11,20 +11,27 @@ html, body {
 }
 
 body {
-  background-color: #ffffce;
+  background-color: #fff;
   padding-bottom: 100px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar {
-  background-color: #FF6138;
+  background-color: #FCA205;
 }
+
 .navbar a, .navbar .navbar-collapse ul li a {
   color: white;
 }
+
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.6em;
+}
+
 .jumbotron {
-  background-color: #65C2A2;
-  color: #C2F0A2;
+  background-color: #FCA205;
+  color: #fff;
 }
 
 form {
@@ -32,15 +39,15 @@ form {
 }
 
 .submitBtn {
-  background-color: #FF6138;
-  color: white;
+  background-color: #fff;
+  color: #FCA20E;
 }
 
 .courseName {
-  color: #00A388;
+  color: #FCA205;
 }
 .questionsList, .no-delay {
-  background-color: #FFC78E;
+  background-color: #FCA205;
 }
 
 .questionsList:nth-child(odd) {
@@ -48,7 +55,7 @@ form {
 }
 
 .questionsList span {
-  color: #FF6138;
+  color: #fff;
 }
 
 .arrow {
@@ -62,8 +69,8 @@ form {
 .footer {
   padding-top: 10px;
   text-align: center;
-  background-color: #65C2A2;
-  color: #BEEB9F;
+  background-color: #FCA205;
+  color: #fff;
 }
 
 .well {
