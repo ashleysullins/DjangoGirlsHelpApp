@@ -16,6 +16,6 @@ export default Ember.Route.extend({
             return course.save();
           });
           this.transitionTo('success', newTicket.id);
-       }
+      },
   },
 });
